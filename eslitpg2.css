@@ -1,0 +1,60 @@
+
+
+
+.logo{
+    max-width: 90%;
+    justify-content:center ;
+    margin-left: 10px;
+    background-color: whitesmoke;
+}
+
+.logo1 > p{
+    text-align: center;
+    background-color:white;
+}
+.container{
+    color:red;
+    size: 90px;
+}
+
+.carousel-indicators{
+    max-width: 30%;
+}
+
+
+.carousel-inner{
+    max-width: 500%;
+}
+
+body{
+    background-color:white;
+}
+
+.nomeestacionamento{
+    color: gray;
+    font-size: x-large;
+    margin-left: 220px;
+
+}   
+
+.descrição{
+    color:black;
+    margin:35px;
+    font-size: 20px;
+    
+}
+.formulario{
+    background-color:white;
+    margin-top:50px;
+}
+
+
+.Alugar{
+    align-content: center;
+    
+}
+
+.voltar{
+   align-content: center;
+    margin-top: 10px;
+}
