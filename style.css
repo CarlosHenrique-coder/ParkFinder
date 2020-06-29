@@ -1,0 +1,22 @@
+.logo{
+    max-width: 90%;
+    justify-content:center ;
+    margin-left: 10px;
+}
+
+.logo1 > p{
+    text-align: center;
+}
+
+.menu{
+    margin-left: 57%;
+    margin-bottom: 20px;
+}
+
+h1{
+    font-size: 20px;
+}
+
+.card{
+    margin-top: 20px;
+}

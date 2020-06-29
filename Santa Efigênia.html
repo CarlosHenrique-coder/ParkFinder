@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Bairro - Park Finder</title>
+    <script src="login.js"></script>
+    <script>       
+        if (!usuarioCorrente.login) {
+            window.location.href = LOGIN_URL;
+        }
+
+        function initPage() {
+            document.getElementById('btn_logout').addEventListener('click', logoutUser);
+            document.getElementById('nomeUsuario').innerHTML = usuarioCorrente.nome;
+        }
+
+        window.addEventListener('load', initPage);
+    </script>
+</head>
+
+<body>
+    <header class="container cabecalho">
+        <div class="row">
+            <div class="logo1">
+                <img class="logo" src="Logo.png">
+                <p>Park Finder</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="menu">
+                <div class="d-flex">
+                    <div class="dropdown mr-1">
+                        <button type="button" class="btn btn-secondary dropdown-toggle" id="dropdownMenuOffset"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="-20,10">
+                            Santa Efigênia
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
+                            <a class="dropdown-item" href="Pagina1.html">Todos os Bairros</a>
+                            <a class="dropdown-item" href="Boa Viagem.html">Boa Viagem</a>
+                            <a class="dropdown-item" href="Santa Efigênia.html">Santa Efigênia</a>
+                            <a class="dropdown-item" href="Funcionários.html">Funcionários</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container principal">
+        <h1>Olá <span id="nomeUsuario">, seja bem-vindo!</span></h1>
+        <button id="btn_logout">Efetuar Logout</button>
+        <div class="card mb-3">
+            <div class="row no-gutters">
+                <div class="col-md-4">
+                    <img src="ParkTech1.jpg" class="card-img" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title"> Park Tech</h5>
+                        <p class="card-text">Endereço: Av. dos Andradas,620</p>
+                        <div class="Alugar">
+                            <a class="btn btn-primary btn-success" href="ParkTech.html" role="button">PARK</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card mb-3">
+            <div class="row no-gutters">
+                <div class="col-md-4">
+                    <img src="PadreMarinho.jpg" class="card-img" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title"> Padre Marinho </h5>
+                        <p class="card-text">Endereço: Rua Padre Marinho, 195</p>
+                        <div class="Alugar">
+                            <a class="btn btn-primary btn-success" href="Padre_Marinho.html" role="button">PARK</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card mb-3">
+            <div class="row no-gutters">
+                <div class="col-md-4">
+                    <img src="TOP_Parking.jpg" class="card-img" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title"> TOP Parking </h5>
+                        <p class="card-text">Endereço:  Av. Do Contorno, 3649</p>
+                        <div class="Alugar">
+                            <a class="btn btn-primary btn-success" href="TOP_Parking.html" role="button">PARK</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
